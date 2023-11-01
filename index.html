@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Drag and Drop</h2>
+<p>Drag the image back and forth between the two div elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="img/senai.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<h1>SENAI é uma instituição</h1>
+
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="img/sesi.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+  </div>
+
+  <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <h1>SESI uma rede de encino</h1>
+
+  <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="img/fiesp.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+  </div>
+
+  <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <h1>FIESP uma corporação</h1>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
